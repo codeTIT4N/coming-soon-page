@@ -29,7 +29,7 @@
 
 .logo {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2.5em;
   transition: opacity 0.05s ease;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .social .icon {
-  width: 18px;
+  width: 40px;
   fill: #fff;
 }
 
