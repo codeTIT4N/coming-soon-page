@@ -10,8 +10,19 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LokeshInTech.com</a>
+            <a href=".">LokeshKr.com</a>
           </div>
+        </div>
+        <div className="content">
+          <div className="title-holder">
+            <h1>Coming Soon</h1>
+            <p>Website coming soon. Please check back to know more. Shoot me an email if you're curious.</p>
+          </div>
+          <a href="mailto:lokeshkumar636@yahoo.com">
+            <div className="cta">Send me an email</div>
+          </a>
+          <br />
+          <br />
           <div className="social">
             <a href="https://github.com/codeTIT4N" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
@@ -23,15 +34,6 @@ class App extends React.Component {
               <IconTwitter className="icon" />
             </a>
           </div>
-        </div>
-        <div className="content">
-          <div className="title-holder">
-            <h1>Coming Soon</h1>
-            <p>Website coming soon. Please check back to know more. Shoot me an email if you're curious.</p>
-          </div>
-          <a href="mailto:lokeshkumar636@yahoo.com">
-            <div className="cta">Send me an email</div>
-          </a>
         </div>
       </div>
     );
