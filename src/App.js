@@ -24,8 +24,7 @@ class App extends React.Component {
           <a href="mailto:lokeshkumar636@yahoo.com">
             <div className="cta">Send me an email</div>
           </a>
-          <br />
-          <br />
+          <hr />
           <div className="social">
             <a href="https://github.com/codeTIT4N" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
